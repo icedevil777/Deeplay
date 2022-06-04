@@ -1,0 +1,15 @@
+[Unit]
+Description=java_app_service
+After = syslog.target network.target
+
+[Service]
+SuccessExitStatus=143
+Restart=always
+RestartSec=5s
+User=root
+Type=simple
+ExecStart=/usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar /home/gregory/app.jar /home/gregory/some_out_files "work"
+ExecStop=/bin/kill -15 $MAINPID
+
+[Install]
+WantedBy=multi-user.target

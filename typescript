@@ -1,0 +1,44 @@
+Script started on 2022-06-03 19:56:06+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="192" LINES="10"]
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay[00m$ sudo su[K[K[K[K[K[K[Kpython script.py
+python: can't open file '/home/gregory/PycharmProjects/Deeplay/script.py': [Errno 2] No such file or directory
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay[00m$ python script.py3 script.py
+python3: can't open file 'script.py': [Errno 2] No such file or directory
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay[00m$ cd task_1
+bash: cd: task_1: Нет такого файла или каталога
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay[00m$ cd task_1[K[K[K[K[K[K[K entertest
+bash: cd: entertest: Нет такого файла или каталога
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay[00m$ cd entertest[1Ptest[1Ptestrtestytest
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest[00m$ cd task_1[K2
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ cd task_2entrytestertest[3Ptask_1python3 script.py[1P script.py3 script.py
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py ?[K&
+[1] 17499
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py &
+[2] 18006
+[1]   Завершён        python3 script.py
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py &[Kstop
+Traceback (most recent call last):
+  File "script.py", line 18, in <module>
+    fp = open('log.txt', mode='r+')
+FileNotFoundError: [Errno 2] No such file or directory: 'log.txt'
+Traceback (most recent call last):
+  File "script.py", line 18, in <module>
+    fp = open('log.txt', mode='r+')
+FileNotFoundError: [Errno 2] No such file or directory: 'log.txt'
+[2]+  Выход 1            python3 script.py
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py stop[K[K[K[K&
+[1] 18207
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ python3 script.py &[Kыещз[K[K[K[Kstop
+^CTraceback (most recent call last):
+  File "script.py", line 24, in <module>
+    sleep(1)
+KeyboardInterrupt
+
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ зы[K[Kps
+    PID TTY          TIME CMD
+  17199 pts/2    00:00:00 bash
+  18207 pts/2    00:00:00 python3
+  18716 pts/2    00:00:00 ps
+]0;gregory@gregory-R780: ~/PycharmProjects/Deeplay/entrytest/task_2[01;32mgregory@gregory-R780[00m:[01;34m~/PycharmProjects/Deeplay/entrytest/task_2[00m$ kill 18207
+[1]+  Завершено      python3 script.py
+]0;gregory@gregory-R780: ~/PycharmProjects/Deepla
